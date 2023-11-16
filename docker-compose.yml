@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    container_name: sqlite3-hw
+    image: ylin94/python_dev:3.11
+    volumes:
+      - .:/app
